@@ -1,29 +1,24 @@
 import { Link } from '@reach/router'
 import React from 'react'
 
+import styles from './Header.module.css'
+
 const Header: React.FC = () => (
-  <header className="bg-white h-20 py-5 border-b sticky top-0">
-    <div className="max-w-5xl mx-auto px-6">
-      <div className="w-full flex flex-col sm:flex-row justify-center sm:justify-between items-center">
-        <div className="flex flex-col sm:flex-row items-center mb-4 sm:mb-0">
-          <img
-            src="/react-bricks-logo.svg"
-            className="w-48"
-            alt="React Bricks"
-          />
-          <div className="ml-8 flex space-x-5 text-center">
-            <Link to="/" className="text-gray-500 hover:text-pink-700">
+  <header className={styles.header}>
+    <div className={styles.headerWrapper}>
+      <div className={styles.headerSubWrapper}>
+        <div className={styles.headerView}>
+          <img src="/react-bricks-logo.svg" className={styles.image} alt="React Bricks" />
+          <div className={styles.groupLink}>
+            <Link to="/" className={styles.coupleLink}>
               Home
             </Link>
-            <Link to="/about-us" className="text-gray-500 hover:text-pink-700">
+            <Link to="/about-us" className={styles.coupleLink}>
               About us
             </Link>
           </div>
         </div>
-        <Link
-          to="/admin"
-          className="py-2 px-5 rounded text-white font-medium bg-azure-500 hover:bg-azure-600 hover:shadow-lg transition duration-200"
-        >
+        <Link to="/admin" className={styles.singleLink}>
           Edit content
         </Link>
       </div>
