@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className={styles.footerWrapper}>
         <div className={styles.imageWrapper}>
           <img src="/react-bricks-icon.svg" alt="React Bricks" className={styles.image} />
-          <div className={styles.footerWrite}>Next.js website starter</div>
+          <div className={styles.footerWrite}>Create React App starter</div>
         </div>
         <div className={styles.footerDate}>
           © {new Date().getFullYear()}{' '}

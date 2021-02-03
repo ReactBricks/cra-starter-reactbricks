@@ -13,9 +13,9 @@ const Header: React.FC = () => (
             <Link to="/" className={styles.coupleLink}>
               Home
             </Link>
-            <Link to="/about-us" className={styles.coupleLink}>
+            {/* <Link to="/about-us" className={styles.coupleLink}>
               About us
-            </Link>
+            </Link> */}
           </div>
         </div>
         <Link to="/admin" className={styles.singleLink}>
