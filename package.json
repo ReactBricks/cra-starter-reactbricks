@@ -12,7 +12,7 @@
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "react": "^17.0.1",
-    "react-bricks": "2.0.0-beta.21",
+    "react-bricks": "^2.0.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "typescript": "^4.0.3",
