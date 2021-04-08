@@ -9,14 +9,15 @@ import './App.css'
 import ErrorNoKeys from './components/ErrorNoKeys'
 import Layout from './components/Layout'
 import config from './react-bricks/config'
-import Viewer from './Viewer'
 import ViewerFetch from './ViewerFetch'
 
 const App: React.FC<RouteComponentProps> = () => {
   return (
-    <Layout>
+    <>
       {!config.appId || !config.apiKey ? (
-        <ErrorNoKeys />
+        <Layout>
+          <ErrorNoKeys />
+        </Layout>
       ) : (
         <ReactBricks {...config}>
           <Router>
@@ -26,12 +27,11 @@ const App: React.FC<RouteComponentProps> = () => {
             <Playground path="/admin/playground" />
             <AppSettings path="/admin/app-settings" />
 
-            <Viewer path="/" />
-            <ViewerFetch path="/viewer-fetch" />
+            <ViewerFetch path="/" />
           </Router>
         </ReactBricks>
       )}
-    </Layout>
+    </>
   )
 }
 

@@ -7,6 +7,7 @@ import {
   ReactBricksContext,
   types,
 } from 'react-bricks'
+import Layout from './components/Layout'
 import ErrorNoHomePage from './components/ErrorNoHomePage'
 
 const ViewerFetch: React.FC<RouteComponentProps> = () => {
@@ -22,10 +23,18 @@ const ViewerFetch: React.FC<RouteComponentProps> = () => {
   }, [apiKey, pageTypes, bricks])
 
   if (!page) {
-    return <ErrorNoHomePage />
+    return (
+      <Layout>
+        <ErrorNoHomePage />
+      </Layout>
+    )
   }
 
-  return <PageViewer page={page} />
+  return (
+    <Layout>
+      <PageViewer page={page} />
+    </Layout>
+  )
 }
 
 export default ViewerFetch
