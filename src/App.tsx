@@ -27,7 +27,8 @@ const App: React.FC<RouteComponentProps> = () => {
             <Playground path="/admin/playground" />
             <AppSettings path="/admin/app-settings" />
 
-            <ViewerFetch path="/" />
+            <ViewerFetch path="/" slug="home" />
+            <ViewerFetch path="/about-us" slug="about-us" />
           </Router>
         </ReactBricks>
       )}

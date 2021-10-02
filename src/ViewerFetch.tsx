@@ -10,17 +10,18 @@ import {
 import Layout from './components/Layout'
 import ErrorNoHomePage from './components/ErrorNoHomePage'
 
-const ViewerFetch: React.FC<RouteComponentProps> = () => {
-  const PAGE_SLUG = 'home'
+const ViewerFetch: React.FC<RouteComponentProps & { slug: string }> = ({
+  slug,
+}) => {
   const [page, setPage] = useState<types.Page>()
   const { apiKey, pageTypes, bricks } = useContext(ReactBricksContext)
 
   useEffect(() => {
-    fetchPage(PAGE_SLUG, apiKey).then((data) => {
+    fetchPage(slug, apiKey).then((data) => {
       const myPage = cleanPage(data, pageTypes, bricks)
       setPage(myPage)
     })
-  }, [apiKey, pageTypes, bricks])
+  }, [apiKey, pageTypes, bricks, slug])
 
   if (!page) {
     return (

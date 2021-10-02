@@ -3,13 +3,11 @@ import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
 
-import styles from './Layout.module.css'
-
 const Layout: React.FC = ({ children }) => {
   return (
-    <div className={styles.layout}>
+    <div className="flex flex-col h-screen justify-between font-content antialiased">
       <Header />
-      <main className={styles.children}>{children}</main>
+      <main className="mb-auto">{children}</main>
       <Footer />
     </div>
   )
