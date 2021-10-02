@@ -1,6 +1,6 @@
 # React Bricks starter vanilla React
 
-This starter is aimed at users of [React Bricks](https://reactbricks.com) who need to integrate it into an existing React project, instead of starting from a Next.js starter.
+This starter is aimed at users of [React Bricks](https://reactbricks.com) who need a vanilla React starter to integrate React Bricks into an existing React project, instead of starting from a Next.js or Gatsby starter.
 
 It's useful to understand how React Bricks works in a simple environment.
 
@@ -32,7 +32,7 @@ The `admin` directory contains the Admin dashboard components (they are just a t
 
 In the root directory you find two `Viewer` components to show content in your front-end:
 
-- `Viewer` uses React Bricks' `usePage` hook to load the page content
+- `ViewerHook` uses React Bricks' `usePage` hook to load the page content
 - `ViewerFetch` uses React Bricks `fetchPage` function to load the page content
 
 ## 📖 Documentation
