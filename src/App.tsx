@@ -1,6 +1,6 @@
 import { RouteComponentProps, Router } from '@reach/router'
 import React from 'react'
-import { ReactBricks } from 'react-bricks'
+import { ReactBricks } from 'react-bricks/frontend'
 import AppSettings from './admin/AppSettings'
 import Editor from './admin/Editor'
 import Login from './admin/Login'

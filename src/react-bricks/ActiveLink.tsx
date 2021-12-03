@@ -1,4 +1,4 @@
-import { types } from 'react-bricks'
+import { types } from 'react-bricks/frontend'
 import { Link, LinkGetProps } from '@reach/router'
 
 const ActiveLink: types.RenderLocalLink = ({

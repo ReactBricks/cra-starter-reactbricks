@@ -6,7 +6,7 @@ import {
   PageViewer,
   ReactBricksContext,
   types,
-} from 'react-bricks'
+} from 'react-bricks/frontend'
 import Layout from './components/Layout'
 import ErrorNoHomePage from './components/ErrorNoHomePage'
 

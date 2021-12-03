@@ -1,4 +1,4 @@
-import { types } from 'react-bricks'
+import { types } from 'react-bricks/frontend'
 import HeroUnit from './MyHeroUnit'
 
 // React Bricks UI + Custom HeroUnit brick
