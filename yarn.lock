@@ -2573,10 +2573,10 @@
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
 
-"@types/jest@^27.0.3":
-  version "27.0.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.0.3.tgz#0cf9dfe9009e467f70a342f0f94ead19842a783a"
-  integrity sha512-cmmwv9t7gBYt7hNKH5Spu7Kuu/DotGa+Ff+JGRKZ4db5eh8PnKS4LuebJ3YLUoyOyIHraTGyULn23YtEAm0VSg==
+"@types/jest@^27.4.0":
+  version "27.4.0"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-27.4.0.tgz#037ab8b872067cae842a320841693080f9cb84ed"
+  integrity sha512-gHl8XuC1RZ8H2j5sHv/JqsaxXkDDM9iDOgu0Wp8sjs4u/snb2PVehyWXJPr+ORA0RPpgw231mnutWI1+0hgjIQ==
   dependencies:
     jest-diff "^27.0.0"
     pretty-format "^27.0.0"
@@ -2606,10 +2606,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.10.2.tgz#5764ca9aa94470adb4e1185fe2e9f19458992b2e"
   integrity sha512-zCclL4/rx+W5SQTzFs9wyvvyCwoK9QtBpratqz2IYJ3O8Umrn0m3nsTv0wQBk9sRGpvUe9CwPDrQFB10f1FIjQ==
 
-"@types/node@^17.0.4":
-  version "17.0.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.4.tgz#fec0ce0526abb6062fd206d72a642811b887a111"
-  integrity sha512-6xwbrW4JJiJLgF+zNypN5wr2ykM9/jHcL7rQ8fZe2vuftggjzZeRSM4OwRc6Xk8qWjwJ99qVHo/JgOGmomWRog==
+"@types/node@^17.0.7":
+  version "17.0.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.7.tgz#4a53d8332bb65a45470a2f9e2611f1ced637a5cb"
+  integrity sha512-1QUk+WAUD4t8iR+Oj+UgI8oJa6yyxaB8a8pHaC8uqM6RrS1qbL7bf3Pwl5rHv0psm2CuDErgho6v5N+G+5fwtQ==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -8224,10 +8224,10 @@ react-app-polyfill@^3.0.0:
     regenerator-runtime "^0.13.9"
     whatwg-fetch "^3.6.2"
 
-react-bricks@^3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/react-bricks/-/react-bricks-3.2.5.tgz#93ff04b42247c4e6a17267c72acc10ba99160323"
-  integrity sha512-kLHdDZPT63Kp4hglvYv9pkybydjjIoyGTuZl+iFNKV5W35KMPqZ7P/0ReVTlZyN3qgB9FUjAPph/yOB16aGx0w==
+react-bricks@^3.2.8:
+  version "3.2.8"
+  resolved "https://registry.yarnpkg.com/react-bricks/-/react-bricks-3.2.8.tgz#23ba5db2d6ad78bd78d1db70d673afafe245c83b"
+  integrity sha512-kcXiwo4MtXGcIZGK+hfKd3rC9qWBacOoj325Kh8M8fLna0wCFKMZSyFFN7s6D4oJL0WZWahh/zcfXqkEODM1MA==
   dependencies:
     "@tippyjs/react" "^4.2.5"
     axios "^0.23.0"
